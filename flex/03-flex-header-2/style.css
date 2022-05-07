@@ -15,7 +15,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  column-gap: 16px;
+  padding: 8px;
 }
 
 .profile-image {
@@ -55,4 +55,15 @@ ul {
 
 .notifications {
   margin-left: auto;
+}
+
+.left {
+  display: flex;
+}
+
+.right {
+  display: flex;  
+  gap: 16px;
+  margin-left: auto;
+  align-items: center;
 }
